@@ -1,0 +1,143 @@
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+#zyy_footer {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 496px;
+    border-top: 1px solid #ebebeb;
+    background-color: #fcfcfc;
+    color: #4d4d4d;
+}
+.zyy_footerInner {
+    height: 447px;
+    width: 960px;
+}
+.zyy_footerIcon {
+    display: block;
+    width: 960px;
+    height: 105px;
+    display: block;
+    margin-left: 9px;
+}
+.zyy_footerIcon li {
+    float: left;
+    width: 96px;
+    margin-top: 30px;
+}
+.zyy_footerList {
+    height: 146px;
+    overflow: hidden;
+    margin: 37px 0 25px;
+    line-height: 20px;
+}
+.zyy_listAnim {
+    float: left;
+    width: 145px;
+    height: 146px;
+    border-right: 1px solid #ebebeb;
+    padding-left: 16px;
+}
+.zyy_listAnim dt {
+    width: 145px;
+    height: 20px;
+    margin-bottom: 4px;
+    color: #4d4d4d;
+}
+.zyy_listAnim dd {
+    width: 145px;
+    height: 20px;
+    line-height: 20px;
+}
+.zyy_listAnim dd a {
+    color: grey;
+}
+.zyy_listAnim dd a span {
+    font-weight: 900;
+}
+.zyy_listAnim dd a:hover{
+    color: #f10180;
+    margin-left: 2px;
+} 
+.zyy_footerQR {
+    float: left;
+}
+.zyy_footerQR {
+    padding-left: 0;
+    width: 136px;
+    text-align: center
+}
+.zyy_footerQR dt {
+    margin-bottom: 4px;
+}
+.zyy_footerInfor {
+    height: 120px;
+}
+.zyy_footerInforLink {
+    width: 960px;
+    height: 30px;
+    background-color: #d7237e;
+    color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+.zyy_footerInforLink a {
+    color: #fff;
+    line-height: 30px;
+    margin: 0 2px 0;
+}
+.zyy_footerInforLink a:hover{
+    opacity: 0.8;
+} 
+.zyy_footerInforTxt {
+    height: 76px;
+    color: #999;
+    text-align: center;
+    margin: 14px 0;
+    line-height: 19px;
+}
+.zyy_footerInforTxt a {
+    height: 14px;
+    line-height: 14px;
+    color: grey;
+}
+.zyy_footerInforTxt a:hover{
+    color: #f10180;
+}
+.zyy_footerInforTxt a img {
+    vertical-align: top;
+}
+.zyy_footerBottom {
+    width: 960px;
+    height: 40px;
+}
+.zyy_footerPic {
+    display: inline-block;
+    width: 960px;
+    height: 40px;
+    text-align: center;
+}
+.zyy_footerPic a {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+}
+.zyy_footerPic a img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+

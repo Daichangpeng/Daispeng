@@ -1,0 +1,142 @@
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+.dcp-left{
+    position: absolute;
+    top: 0;
+    left: 50px;
+    float: left;
+}
+.dcp-left a{
+    line-height: 40px;
+    color: #000;
+}
+
+.dcp-img{
+    width: 420px;
+    height: 420px;
+    background: #000;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.dcp-img img{
+    width: 420px;
+    height: 420px;
+}
+.dcp-Ul{
+    position: absolute;
+    top: 470px;
+    left: 25px;
+}
+.dcp-Ul li{
+    height: 64px;
+    width: 64px;
+    background: red;
+    float: left;
+    margin: 10px;
+    border: 1px solid #ccc;
+
+}
+.dcp-Ul img{
+    height: 64px;
+    width: 64px;
+}
+.dcp-right{
+    width: 700px;
+    float: right;
+    margin-top: 60px;
+    text-indent: 30px; 
+}
+.dcp-discount{
+    width: 550px;
+    height: 90px;
+    background: #aa11ff;
+    margin-left: 30px;
+    line-height: 90px;
+}
+.dcp-discount p{
+    font-size: 20px;
+}
+.dcp-discount span{
+    font-size: 40px;
+    color: red;
+    margin-left: 10px;
+}
+.dcp-form{
+    width: 550px;
+    height: 270px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.dcp-form dl{
+    line-height: 34px;
+    height: 34px;
+}
+.dcp-form dt{
+    float: left;
+    /* width: 40px; */
+    font-size: 20px;
+    color: #999;
+    line-height: 32px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.dcp-form dd .dcp-ss{
+    width: 250px;
+    border: 1px solid #ccc;
+    line-height: 32px;
+    float: left;
+    height: 32px;
+    overflow: hidden;
+    padding: 0 35px 0 10px;
+}
+.icon-down{
+    float:right;
+    text-align: center;
+    width: 46px;
+    height: 32px;
+}
+.dcp-size{
+    float: left;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dcp-size .dcp-p{
+    float: left;
+    width: 72px;
+    height: 60px;
+    line-height: 30px;
+    margin-right: 20px;
+}
+.dcp-size li{
+    float: left;
+    width: 72px;
+    height: 30px;
+    background: #ccc;
+    line-height: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+.dcp-num{
+    float: left;
+}
+.dcp-num p{
+    float: left;
+    height: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 20px;
+}
+.dcp-num li{
+    width: 100px;
+    height: 60px;
+    float: left;
+    line-height: 60px;
+    margin: 0 auto;
+    
+}

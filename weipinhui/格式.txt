@@ -1,0 +1,6 @@
+所有图片放images
+模拟的数据放data
+reset.css  ——》样式重置
+tools.js  ->工具文件
+文件命名：以为自己名字开头字母+文件名   e.g    tt_register.css
+版心宽度统一为  1170px;

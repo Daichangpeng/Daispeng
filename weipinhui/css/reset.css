@@ -1,0 +1,45 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    color: #f40;
+}
+li{
+    list-style: none;
+}
+html,body{
+    font:12px "微软雅黑",Arial;
+    color: #000;
+    width: 100%;
+    height: 100%;
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+    font-weight: normal;
+}
+i,em{
+    font-style: normal;
+}
+input{
+    outline: none;
+    /* border: 0; */
+}
+/* 万能清除符 */
+.clearfix{
+    zoom: 1;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+img{
+    border: 0;
+}

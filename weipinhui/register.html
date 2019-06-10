@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/register.css">
+    <title>注册页面</title>
+</head>
+
+<body>
+    <div id="header">
+        <div class="h_inner container">
+            <h1>
+                <a href="#" class="getBg">唯品会</a>
+            </h1>
+            <div class="logos getBg"></div>
+        </div>
+    </div>
+    <div id="main">
+        <div class="main_inner container">
+            <div class="wrap">
+                <div class="register_top clearfix">
+                    <h3>用户注册</h3>
+                    <div class="r_login">已注册<a href="#">可直接登录</a></div>
+                </div>
+                <form class="imfor" action="http://www.baidu.com">
+                    <div class="tall">
+                        <i class="getBg m_iphone"></i>
+                        <input type="text" placeholder="请输入手机号" name="iphone" class="u_iphone" required="true" />
+                    </div>
+                    <div class="mocode clearfix">
+                        <i class="getBg m_mess"></i>
+                        <input type="text" placeholder="请输入验证码" name='p_code' class="c_code" required="true" />
+                        <button type="button" class="btn_send">获得短信验证</button>
+                    </div>
+                    <div class="pass">
+                            <i class="getBg m_pass"></i>
+                        <input type="password" class="pass" placeholder="密码由6-20位字母，数字和符号组合" name="pass" id="field"
+                            required="true" rangelength="5,10" />
+                    </div>
+                    <div class="repass">
+                            <i class="getBg m_pass"></i>
+                        <input type="password" class="re_pass" placeholder="请再次输入上面的密码" name="repass" required="true"
+                            equalTo="#field" />
+                    </div>
+                    <div class="check">
+                        <input type="checkbox"/>
+                        <span>
+                            我已阅读并接受以下条款：
+                            <a href="http://support.vip.com/clause/?ff=125|2|1|12" class="u-link" target="_blank" id="J_mobile_provision">《唯品会服务条款》</a>
+                            <a href="http://support.vip.com/privacy/" class="u-link" target="_blank">《隐私条款》</a>
+                            <a href="https://i.vpal.com/clause.html" class="u-link" target="_blank">《唯品支付用户服务协议》</a>
+                        </span> 
+                        </div>
+                    <input type="submit" value="立即注册"  class="sub"/>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-1.8.3.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/jquery.validate.messages_zh.js"></script>
+    <script src="js/register_tabv.js"></script>
+</body>
+
+</html>
